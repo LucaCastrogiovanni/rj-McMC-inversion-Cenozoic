@@ -1,0 +1,17 @@
+# THIS FILE CONTAINS PRIOR INFO ON EACH PARAMETER for EACH COMPLEXITY
+# PLUS PRIOR INFO on HYPER-PARAMETER 
+#
+# PRIOR FOR each COMPLEXITY
+1   100            # MIN/MAX number of complexity
+0.01                        # MIN-DIST between complexity (in days)
+3                        # Number of dimension in each quality
+#
+ -56100000.0     -55000000.0     0.25    # Time (X, in days): MIN/MAX/SCALE
+0.0   0.02       0.25  # BETA parameter: MIN/MAX/SCALE
+0.0   0.2      0.25  # GAMMA paramter: MIN/MAX/SCALE
+#
+# PRIOR FOR HYPER-PARAMETER
+-1.0    5.0  0.25      # MIN/MAX/SCALE for the hyper-parameter
+#
+# SYNTHETICS -- Last model synthetics can be created adding uncorrelated white noise
+1			# 0- Synthetics w/o added noise; 1- Synthetics w/ ADDED noise
